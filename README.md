@@ -1,5 +1,12 @@
 # Graduation-Project: Analysis of the Used Car Market in Saudi Arabia Using Machine and Deep Learning
 
+## Repoistry
+This repository contains:
+- PDF file: a full detailed project report of 58 pages.
+- PowerPoint file: A poster that summarizes the details of the project and was used in the University Student Projects Conference.
+- Data Folder: Contains the collected data for the project.
+- Code folder: contains the project code files.
+- Web Application Code Folder: Contains web application code files.
 ## The Project Aim
 The project aims to analyze the used car market in Saudi Arabia using different algorithms and predict the price of a used car based on several attributes: Mileage, Brand, Model, Year, Engine Size, Region, Color, Fuel Type, and Gear Type.
 ## Data
