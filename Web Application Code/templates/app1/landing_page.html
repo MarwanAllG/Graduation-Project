@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+{%load static %}
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Used Cars Analysis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <style>
+          @media only screen and (max-width: 720px) {
+          .container-fluid {
+            width:100% !important
+          }
+          .btn{
+            width:100% !important
+          }
+          .img-thumbnail{
+            width:40% !important;
+          }
+
+        }
+
+      </style>
+  </head>
+  <body style="background-color:cadetblue">
+
+    <div class="container-fluid p-3 ms-auto me-auto w-75 " style="background-color:cadetblue">
+       <img src="{% static 'unij.png' %}" class="img-thumbnail  mx-auto d-block" alt="uni" style="width:15%">
+      <br>
+       <h1 class="text-center htitle">Welcome to Used Cars Analysis and Prediction Application!! </h1>
+      <br>
+        <div class="card shadow-lg" >
+
+        <div class="card-body">
+
+          <p class="card-text ">Firstly, this is a graduation project done by 4 students majoring in data science at the University of Jeddah. </p>
+          <p class="card-text">The web application is aimed to help individuals and enterprises that are willing to buy or sell used cars in Saudi Arabia to set prices for cars in the most accurate way. </p>
+          <p class="card-text ">This is done by taking input from the website’s users, then processing it using a machine learning model that predicts the car price based on the user’s input.</p>
+          <p class="card-text ">Furthermore, the R squared score of the model used to predict the car prices is ≈ <b class="text-danger">%96</b> , hence you can rest assured that the prediction is quite much accurate &#128522; .</p>
+          <p class="card-text ">Additionally, the web application will route its users to an interactive dashboard that will help in understanding the used cars market in Saudi Arabia.</p>
+          <br>
+           <div class="d-flex justify-content-center">
+                 <a href="{%url 'index'%}" class="btn btn-success me-2 w-25" role="button">Let's Predict</a>
+
+                <a href="https://public.tableau.com/app/profile/abdulrhman.simbawa/viz/AnalysisoftheUsedCarsMarketinSaudiArabia/Dashboard1" target="_blank" class="btn btn-primary ms-2 w-25" role="button">See Dashboard</a>
+       </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  </body>
+</html>
