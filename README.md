@@ -24,5 +24,5 @@ The model then was deployed to a web application so that end users can use it an
 ![image](https://user-images.githubusercontent.com/108818514/219432871-5f741024-b511-4280-9f7f-b60cd2f334ab.png)
 ![image](https://user-images.githubusercontent.com/108818514/219432754-944680da-9fb3-42c9-a552-47431ad32ce5.png)
 ## The Link to the Web Application and the Interactive Dashboard 
-https://ksacarmarket.herokuapp.com/
+https://ksacarpricepredictor.com
 
